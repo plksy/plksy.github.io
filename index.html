@@ -3,40 +3,118 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>搬瓦工 VPS 推荐</title>
+  <title>搬瓦工 VPS 推荐 - 高性价比主机</title>
   <style>
     body {
-      font-family: sans-serif;
-      background: #f9f9f9;
-      padding: 40px;
-      max-width: 700px;
-      margin: auto;
-      line-height: 1.6;
-    }
-    h1 {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      background-color: #f4f6f9;
       color: #333;
     }
-    .button {
+    header {
+      background-color: #0073e6;
+      color: white;
+      padding: 60px 20px 40px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    header p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+    .container {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+      padding: 20px;
+      margin-bottom: 30px;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #0073e6;
+    }
+    .card p {
+      margin: 10px 0;
+    }
+    .btn {
       display: inline-block;
-      margin-top: 20px;
+      margin-top: 15px;
       padding: 12px 24px;
-      background: #0073e6;
+      background-color: #0073e6;
       color: white;
       border-radius: 6px;
       text-decoration: none;
-      font-size: 18px;
+      font-size: 16px;
     }
-    .button:hover {
-      background: #005bb5;
+    .btn:hover {
+      background-color: #005bb5;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #999;
+      margin-top: 40px;
+      padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+      .card h2 {
+        font-size: 20px;
+      }
     }
   </style>
 </head>
 <body>
+
+<header>
   <h1>搬瓦工 VPS 推荐</h1>
-  <p>我个人长期使用搬瓦工（BandwagonHost）主机，性价比高，适合建站、搭梯子、部署服务。</p>
-  <p>推荐套餐包括 KVM 架构、CN2 GIA 网络、支持支付宝，按年付费，非常稳定。</p>
-  <p>点击下方按钮前往官方购买页面（含我的推广链接）：</p>
-  <a href="https://bandwagonhost.com/aff.php?aff=77613" class="button" target="_blank">立即查看搬瓦工套餐</a>
-  <p style="margin-top: 40px; color: #888;">感谢你的支持！这将帮助我持续更新和维护内容。</p>
+  <p>高速稳定 · CN2 GIA · 支持支付宝 · 高性价比海外主机</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>入门方案 - 搭建代理 / 小型网站</h2>
+    <p>512MB 内存 / 10GB SSD / 500GB 流量 / 1 IPv4</p>
+    <p>年付仅 $19.99 / 支持 CN2 网络</p>
+    <a href="https://bandwagonhost.com/aff.php?aff=77613" class="btn" target="_blank">立即购买</a>
+  </div>
+
+  <div class="card">
+    <h2>标准方案 - 稳定建站 / 日常使用</h2>
+    <p>1GB 内存 / 20GB SSD / 1000GB 流量 / KVM</p>
+    <p>年付 $39.99 / 超高性价比</p>
+    <a href="https://bandwagonhost.com/aff.php?aff=77613" class="btn" target="_blank">查看详情</a>
+  </div>
+
+  <div class="card">
+    <h2>高级方案 - 多用户 / 多服务部署</h2>
+    <p>2GB 内存 / 40GB SSD / 2000GB 流量 / CN2 GIA</p>
+    <p>年付 $79.99 / 高可用性</p>
+    <a href="https://bandwagonhost.com/aff.php?aff=77613" class="btn" target="_blank">抢购高速方案</a>
+  </div>
+
+</div>
+
+<footer>
+  本页面为个人推荐，感谢通过链接支持我 ❤️<br>
+  页面由 GitHub Pages 托管 · 自适应设计 · 不含广告
+</footer>
+
 </body>
 </html>
